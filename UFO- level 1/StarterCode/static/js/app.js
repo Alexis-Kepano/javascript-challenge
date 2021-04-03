@@ -4,13 +4,13 @@ var tableData = data;
 // YOUR CODE HERE!
 
 
-// Initialize the button instance
+// Initialize button
 
 var button = d3.select("#filter-btn");
 
  
 
-// Initialize the form instance
+// Initialize form 
 
 var form = d3.select("#form");
 
@@ -30,13 +30,13 @@ function createTable(filteredData){
 
     
 
-    // Select the table element by id
+    // Select table element by id
 
     var table = d3.select("#ufo-table");
 
  
 
-    // Select the tbody element by id 
+    // Select tbody element by id 
 
     var tbody = table.select("tbody");
 
